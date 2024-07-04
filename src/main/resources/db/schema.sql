@@ -4,3 +4,8 @@ CREATE TABLE menus (
                        price INT,
                        imageUrl VARCHAR(2048)
 );
+
+CREATE TABLE members (
+                       id VARCHAR(255),
+                       passwd VARCHAR(255)
+);
